@@ -1,0 +1,470 @@
+.cenu {
+    position: absolute;
+    width: 445px;
+    top: 880px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cenaold {
+    margin-left: 40px;
+}
+
+.cenu label {
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+}
+
+.price_old {
+    font-size: 40px;
+}
+
+.cenanew {
+    margin-left: 40px;
+}
+
+.price_main {
+    font-size: 40px;
+}
+
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 480px;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.logo {
+    background: url("../img/head.jpg")
+        /*tpa=http://fata23.t8.uz/uz/img/head.jpg*/
+    ;
+    padding: 40px 0;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.brosayte {
+    margin: 60px 20px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+.nikostop {
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    bottom: 20px;
+}
+
+.price-old {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.price-new {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
+
+.nikostop img {
+    width: 100%;
+}
+
+.nikostop span {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.nikostop p {
+    font-weight: normal;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+.skidka {
+    margin: 40px auto 30px;
+}
+
+.skidka span {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.skidka b {
+    font-size: 32px;
+}
+
+.skidka small {
+    text-transform: lowercase;
+}
+
+.skidka h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text_ {
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 40px 15px;
+}
+
+.garant {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.copy {
+    color: #252525;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+    background: #ececec;
+    padding-bottom: 35px;
+}
+
+.forma {
+    background: #f9f9f9;
+}
+
+form {
+    width: 380px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+form input {
+    display: block;
+    outline: 0;
+    color: #495060;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 95%;
+    padding-left: 5%;
+    height: 54px;
+    line-height: 68px;
+    margin: 0 0 20px;
+    background: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #d7dbe6;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+form select {
+    display: block;
+    outline: 0;
+    color: #495060;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 100%;
+    padding-left: 5%;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 0 20px;
+    background: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #d7dbe6;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+form button {
+    position: relative;
+    display: block;
+    width: 380px;
+    height: 66px;
+    padding: 0;
+    margin: 40px auto 0;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background: #ff0000;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    z-index: 2;
+}
+
+.input_tel span {
+    position: absolute;
+    color: #495060;
+    margin: 16px 0 0 15px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.input_tel input {
+    width: 95%;
+    font-size: 24px;
+}
+
+form input[type="button"]:hover {
+    background: #da0000;
+}
+
+.sposob_oplati {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.sposob_oplati label {
+    margin: 0 0 5px 0;
+}
+
+#price {
+    background: #ececec;
+}
+
+.sposob_oplati input {
+    border: 0;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: inline;
+}
+
+.sposob_oplati div {
+    float: left;
+    margin-right: 20px;
+    height: 45px;
+}
+
+.sposob_oplati img {
+    width: 90px;
+    margin-left: 10px;
+    top: 10px;
+    position: relative;
+}
+
+.dogovor input {
+    border: 0;
+    width: auto;
+    height: auto;
+    margin: 15px 0;
+    display: inline;
+}
+
+.message {
+    width: 380px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.message span {
+    padding-bottom: 5px;
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+form label {
+    font-weight: normal;
+    margin: 0 0 15px 0;
+    display: block;
+    clear: both;
+}
+
+.lang {
+    text-align: right;
+    position: absolute;
+    padding-top: 15px;
+}
+
+.lang a {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+}
+
+.forma p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.button {
+    position: absolute;
+    margin-left: 340px;
+    cursor: pointer;
+}
+
+.button a {
+    color: #000;
+    text-decoration: none;
+    padding: 12px 2px 5px 2px;
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+}
+
+.clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.clockdiv>div {
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 40px;
+    background: #444;
+    display: inline-block;
+}
+
+.dokonca {
+    font-size: 28px;
+    margin: 0;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 24px;
+    color: #000;
+}
+
+#deadline-messadge {
+    display: none;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#deadline-messadge.visible {
+    display: block;
+}
+
+.clockdiv.hidden {
+    display: none;
+}
+
+.errorMessage {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100000;
+    font-size: 13px;
+    background: #DC3434;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 13px;
+    padding: 8px 12px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+    color: #6C6E6F;
+}
+
+.copyright p {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright br {
+    display: none;
+}
+
+.copyright img {
+    margin: 10px auto !important;
+    width: auto;
+}
+
+.copyright img:first-child {
+    display: block !important;
+}
+
+.copyright a {
+    color: #6C6E6F;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #FF0069;
+    text-decoration: none;
+}
+
+.country_select {
+    -webkit-appearance: none;
+}
